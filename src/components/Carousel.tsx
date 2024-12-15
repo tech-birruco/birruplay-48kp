@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
-  'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=1200',
-  'https://images.unsplash.com/photo-1555252333-9f8e92e65df9?q=80&w=1200',
-  'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1200',
-  'https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1200'
+  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-1.png',
+  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-2.png',
+  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-3.png',
+  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-4.png',
+  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-8.png',
+  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-9.png'
 ];
 
 export default function Carousel() {
@@ -20,7 +22,7 @@ export default function Carousel() {
   }, [current]);
 
   return (
-    <div className="relative w-full h-[400px] overflow-hidden rounded-xl">
+    <div className="relative w-full max-w-[1080px] mx-auto aspect-square overflow-hidden rounded-xl">
       {images.map((src, index) => (
         <div
           key={src}
@@ -31,7 +33,7 @@ export default function Carousel() {
           <img
             src={src}
             alt={`Product ${index + 1}`}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         </div>
       ))}

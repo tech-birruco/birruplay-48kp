@@ -8,7 +8,7 @@ export default function VideoSection() {
         <div className="aspect-w-16 aspect-h-9 max-w-4xl mx-auto">
           <iframe
             className="w-full h-[500px] rounded-xl"
-            src="https://www.youtube.com/embed/FiMHfeDOG4A"
+            src="https://www.youtube.com/embed/7VmygTV80kE"
             title="Birru Play Introduction"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
