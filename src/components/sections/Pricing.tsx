@@ -45,7 +45,22 @@ export default function Pricing() {
           <div className="text-center">
             <p className="text-gray-500 line-through mb-2">Total Nilai Rp 449.000</p>
             <p className="text-3xl font-bold text-primary-600 mb-6">Harga Spesial: Rp 299.000</p>
-            <button className="bg-primary-500 text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
+            <button 
+              className="bg-primary-500 text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
+              onClick={() => {
+                // @ts-ignore
+                if (window.fbq) {
+                  // @ts-ignore
+                  window.fbq('track', 'Contact', {
+                    content_name: 'Birru Play - 48 Keinginan Pertamaku',
+                    content_category: 'Buku Menyusun Kalimat',
+                    currency: 'IDR',
+                    value: 299000
+                  });
+                }
+                window.open('https://api.whatsapp.com/send?phone=6282281920653&text=Halo%20Kak%20Saya%20Tertarik%20dengan%20Buku%20Birru%20Play%20%2248%20Keinginan%20Pertamaku%22.%0A', '_blank');
+              }}
+            >
               Ya, Saya Mau Pesan Sekarang!
             </button>
             <div className="mt-6 flex items-center justify-center gap-4 text-sm text-gray-600">
