@@ -33,10 +33,6 @@ export default function CTASection() {
               <Star className="w-5 h-5 text-primary-500 mr-2" />
               <span>Garansi 30 Hari</span>
             </div>
-            <div className="flex items-center">
-              <Heart className="w-5 h-5 text-accent-500 mr-2" />
-              <span>Dukungan Premium</span>
-            </div>
           </div>
         </div>
       </div>

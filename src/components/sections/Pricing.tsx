@@ -14,37 +14,33 @@ export default function Pricing() {
             <p className="text-gray-600">Investasi terbaik untuk masa depan buah hati tercinta</p>
           </div>
           <div className="space-y-6 mb-8">
-            <h3 className="text-xl font-semibold flex items-center gap-2">
-              <Gift className="w-6 h-6 text-primary-500" />
-              <span>Dapatkan Birru Play "48 Keinginan Pertamaku" dengan Bonus Eksklusif:</span>
-            </h3>
             <ul className="space-y-4">
               <li className="flex items-center bg-primary-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-primary-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">Video Tutorial Lengkap</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 150.000)</span>
+                  <span className="font-semibold">Buku untuk Menstimulasi Anak</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 180.000)</span>
                 </div>
               </li>
               <li className="flex items-center bg-secondary-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-secondary-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">Panduan Orang Tua Digital</span>
+                  <span className="font-semibold">E-Book Panduan Praktis Stimulasi </span>
                   <span className="text-gray-500 ml-2">(Senilai Rp 99.000)</span>
                 </div>
               </li>
               <li className="flex items-center bg-accent-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-accent-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">Konsultasi Online 30 Menit</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 200.000)</span>
+                  <span className="font-semibold">Video Tutorial Lengkap</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 150.000)</span>
                 </div>
               </li>
             </ul>
           </div>
           <div className="text-center">
-            <p className="text-gray-500 line-through mb-2">Total Nilai Rp 449.000</p>
-            <p className="text-3xl font-bold text-primary-600 mb-6">Harga Spesial: Rp 299.000</p>
+            <p className="text-gray-500 line-through mb-2">Total Nilai Rp 429.000</p>
+            <p className="text-3xl font-bold text-primary-600 mb-6">Harga Spesial: Rp 180.000</p>
             <button 
               className="bg-primary-500 text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
               onClick={() => {

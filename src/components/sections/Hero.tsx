@@ -14,7 +14,7 @@ export default function Hero() {
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
           Buka Pintu Masa Depan Anak Anda dengan{' '}
-          <span className="text-primary-600">Kemampuan Bahasa</span> yang Sempurna
+          <span className="text-primary-600">Kemampuan Bahasa</span> yang Lebih Baik
         </h1>
         <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
           Atasi 3 Masalah Utama Perkembangan Bahasa Anak: Keterlambatan Bicara, 
@@ -30,7 +30,7 @@ export default function Hero() {
           </div>
           <div className="flex items-center">
             <Heart className="w-5 h-5 text-accent-500" />
-            <span className="ml-2 text-gray-700">10.000+ Anak Terbantu</span>
+            <span className="ml-2 text-gray-700">1000+ Anak Terbantu</span>
           </div>
         </div>
       </div>

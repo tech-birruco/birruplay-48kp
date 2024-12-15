@@ -5,17 +5,17 @@ const problems = [
   {
     icon: <Frown className="w-12 h-12 text-accent-400" />,
     title: 'Kesulitan Mengungkapkan Keinginan',
-    description: '90% orang tua mengalami kesulitan memahami apa yang diinginkan anak mereka, menyebabkan frustasi dan tantrum.'
+    description: '56% orang tua mengalami kesulitan memahami apa yang diinginkan anak mereka, menyebabkan frustasi dan tantrum.'
   },
   {
     icon: <Brain className="w-12 h-12 text-primary-400" />,
-    title: 'Perkembangan Bahasa Tertinggal',
-    description: '7 dari 10 anak mengalami keterlambatan dalam mencapai milestone bahasa mereka, mempengaruhi kepercayaan diri dan kemampuan sosialisasi.'
+    title: 'Tumbuh Kembang Komunikasi Tertinggal',
+    description: '20% anak mengalami keterlambatan bicara, mempengaruhi kepercayaan diri dan kemampuan sosialisasi.'
   },
   {
     icon: <Heart className="w-12 h-12 text-secondary-400" />,
     title: 'Kurangnya Stimulasi yang Tepat',
-    description: '85% orang tua merasa kesulitan memberikan stimulasi bahasa yang tepat untuk anak mereka di rumah.'
+    description: '78% orang tua merasa kesulitan memberikan stimulasi bahasa yang tepat untuk anak mereka di rumah.'
   }
 ];
 
