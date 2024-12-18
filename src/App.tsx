@@ -8,13 +8,17 @@ import Testimonials from './components/sections/Testimonials';
 import Pricing from './components/sections/Pricing';
 import FAQSection from './components/sections/FAQSection';
 import CTASection from './components/sections/CTASection';
+import CardMasalah from './components/sections/CardMasalah';
+import Benefit from './components/sections/Benefit';
 
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <Hero />
+      <CardMasalah />
       <Problems />
       <Solutions />
+      <Benefit  />
       <Gallery />
       <VideoSection />
       <Testimonials />

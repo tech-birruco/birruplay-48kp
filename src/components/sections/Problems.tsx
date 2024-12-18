@@ -1,21 +1,21 @@
 import React from 'react';
-import { AlertCircle, Heart, Brain, Frown } from 'lucide-react';
+import { AlertCircle, Heart, Brain } from 'lucide-react';
 
 const problems = [
   {
-    icon: <Frown className="w-12 h-12 text-accent-400" />,
-    title: 'Kesulitan Mengungkapkan Keinginan',
-    description: '56% orang tua mengalami kesulitan memahami apa yang diinginkan anak mereka, menyebabkan frustasi dan tantrum.'
+    icon: <AlertCircle className="w-12 h-12 text-accent-400" />,
+    title: 'Kesulitan Mengajarkan Komunikasi',
+    description: '78% orang tua mengalami kesulitan mengajarkan komunikasi pada anak.'
   },
   {
     icon: <Brain className="w-12 h-12 text-primary-400" />,
-    title: 'Tumbuh Kembang Komunikasi Tertinggal',
-    description: '20% anak mengalami keterlambatan bicara, mempengaruhi kepercayaan diri dan kemampuan sosialisasi.'
+    title: 'Speech Delay',
+    description: '1 dari 5 anak mengalami speech delay, mempengaruhi kepercayaan diri dan kemampuan komunikasi.'
   },
   {
     icon: <Heart className="w-12 h-12 text-secondary-400" />,
-    title: 'Kurangnya Stimulasi yang Tepat',
-    description: '78% orang tua merasa kesulitan memberikan stimulasi bahasa yang tepat untuk anak mereka di rumah.'
+    title: 'Kesulitan Belajar',
+    description: '1 dari 3 anak kesulitan dalam belajar, mempengaruhi kemampuan akademis dan sosial.'
   }
 ];
 
@@ -23,9 +23,9 @@ export default function Problems() {
   return (
     <section className="py-16 bg-gradient-to-b from-primary-50 to-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-4">Apakah Anak Anda Mengalami Ini?</h2>
+        <h2 className="text-3xl font-bold text-center mb-4">Fakta</h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Kenali tanda-tanda ini sebelum terlambat dan berikan solusi terbaik untuk buah hati tercinta
+          Banyak Ayah Bunda Yang Mengalami Hal Serupa?
         </p>
         <div className="grid md:grid-cols-3 gap-8">
           {problems.map((problem, index) => (
@@ -39,6 +39,9 @@ export default function Problems() {
             </div>
           ))}
         </div>
+        <p className="text-center text-lg font-medium text-gray-700 mt-12">
+          Selamat! Ayah Bunda sudah mengusahakan yang terbaik dan sampai di halaman ini
+        </p>
       </div>
     </section>
   );
