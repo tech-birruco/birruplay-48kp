@@ -3,22 +3,22 @@ import { Quote, Star, Heart } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Setelah 2 minggu menggunakan buku Birru Play, anak saya sudah bisa mengungkapkan keinginannya dengan lebih jelas. Tantrumnya berkurang drastis!",
-    author: "Ibu Sarah",
+    quote: "Ini buku yang bagus dan langka. Metodenya sangat bagus untuk membuat anak paham dengan menjelaskan gambar kata per kata dalam satu kalimat",
+    author: "Bunda Rahma",
     location: "Jakarta",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200"
   },
   {
-    quote: "Buku yang luar biasa! Pendekatan Islaminya sangat sesuai dengan nilai-nilai yang ingin kami tanamkan pada anak.",
-    author: "Ibu Fatima",
+    quote: "Buku ini bagus banget! Anak saya yang tadinya susah nyusun kalimat, sekarang malah ketagihan belajar nyusun kalimat pakai buku ini",
+    author: "Bunda Sarah",
     location: "Bandung",
     rating: 5,
     image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=200"
   },
   {
-    quote: "Panduan videonya sangat membantu saya menerapkan metode pembelajaran yang tepat. Anak jadi lebih percaya diri berbicara.",
-    author: "Ibu Aisyah",
+    quote: "Panduan videonya ngebantu banget! Saya jadi tahu cara ngajarin yang pas, anak pun jadi lebih pede buat ngomong",
+    author: "Bunda Fatima",
     location: "Surabaya",
     rating: 5,
     image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=200"
@@ -30,7 +30,7 @@ export default function Testimonials() {
     <section className="py-16 bg-gradient-to-b from-secondary-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Cerita Sukses Ibu-ibu Hebat</h2>
+          <h2 className="text-3xl font-bold mb-4">Apa Kata Ayah Bunda Yang Sudah Mencoba Buku Ini?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Bergabunglah dengan ribuan ibu yang telah merasakan manfaat Birru Play
           </p>

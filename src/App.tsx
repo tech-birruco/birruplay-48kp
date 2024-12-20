@@ -10,6 +10,7 @@ import FAQSection from './components/sections/FAQSection';
 import CTASection from './components/sections/CTASection';
 import CardMasalah from './components/sections/CardMasalah';
 import Benefit from './components/sections/Benefit';
+import { Specifications } from './components/sections/Specifications';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Benefit  />
       <Gallery />
       <VideoSection />
+      <Specifications />
       <Testimonials />
       <Pricing />
       <FAQSection />

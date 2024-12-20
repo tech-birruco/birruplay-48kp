@@ -4,7 +4,7 @@ import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 const faqs = [
   {
     question: 'Untuk usia berapa buku ini cocok digunakan?',
-    answer: 'Buku ini dirancang khusus untuk anak usia 1-4 tahun yang sedang dalam tahap perkembangan bahasa pertama.',
+    answer: 'Buku ini dirancang khusus untuk anak usia 1-3 tahun yang sedang dalam tahap perkembangan bahasa pertama.',
     icon: '👶'
   },
   {
@@ -21,6 +21,11 @@ const faqs = [
     question: 'Bagaimana cara menggunakan buku ini dengan efektif?',
     answer: 'Setiap buku dilengkapi dengan panduan lengkap dan video tutorial yang akan memandu Anda langkah demi langkah.',
     icon: '📚'
+  },
+  {
+    question: 'Apakah ada harga spesial untuk pembelian dalam jumlah banyak?',
+    answer: 'Ya, kami juga menyediakan harga spesial untuk pembelian dalam jumlah banyak. \n 1. Lebih dari 10: ~~Rp 180.000~~ Rp 167.400 (Hemat Rp 12.600/pcs) \n 2. Lebih dari 50: ~~Rp 180.000~~ Rp 160.200 (Hemat Rp 19.800/pcs)',
+    icon: '💰'
   }
 ];
 

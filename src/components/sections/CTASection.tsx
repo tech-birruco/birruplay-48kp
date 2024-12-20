@@ -14,15 +14,14 @@ export default function CTASection() {
             <Sparkles className="w-8 h-8 text-secondary-500" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Wujudkan Impian{' '}
-            <span className="text-primary-600">Komunikasi yang Lebih Baik</span>{' '}
-            dengan Anak Anda!
+            Jangan Biarkan{' '}
+            <span className="text-primary-600">Anak Kehilangan Kesempatan!</span>{' '}
           </h2>
           <p className="text-xl text-gray-700 mb-8">
-            Investasi terbaik untuk masa depan komunikasi anak Anda dimulai hari ini
+          Bangun koneksi lebih dekat antara anak dan Ayah Bunda, bantu anak mengungkapkan keinginannya dengan percaya diri, dan ciptakan lingkungan yang supportif mulai hari ini
           </p>
           <CTAButton className="bg-primary-500 text-white px-12 py-5 rounded-full text-lg font-semibold hover:bg-primary-600 mb-8">
-            Mulai Perjalanan Belajar Bersama
+            Mulai Perjalanan Bicara Anak Sekarang!
           </CTAButton>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-600">
             <div className="flex items-center">
