@@ -1,6 +1,20 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 
+const BestPrices = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div ref={ref}>
+    Ya, kami juga menyediakan harga spesial untuk pembelian dalam jumlah banyak.
+    <ul className="list-disc px-4">
+      <li>Lebih dari 10: <span className="line-through text-red-500">Rp 180.000</span> Rp 167.400 <span className="text-green-500">(Hemat Rp 12.600/pcs)</span></li>
+      <li>Lebih dari 50: <span className="line-through text-red-500">Rp 180.000</span> Rp 160.200 <span className="text-green-500">(Hemat Rp 19.800/pcs)</span></li>
+    </ul>
+  </div>
+));
+BestPrices.displayName = 'BestPrices';
+
 const faqs = [
   {
     question: 'Untuk usia berapa buku ini cocok digunakan?',
@@ -24,7 +38,7 @@ const faqs = [
   },
   {
     question: 'Apakah ada harga spesial untuk pembelian dalam jumlah banyak?',
-    answer: 'Ya, kami juga menyediakan harga spesial untuk pembelian dalam jumlah banyak. \n 1. Lebih dari 10: ~~Rp 180.000~~ Rp 167.400 (Hemat Rp 12.600/pcs) \n 2. Lebih dari 50: ~~Rp 180.000~~ Rp 160.200 (Hemat Rp 19.800/pcs)',
+    answer: <BestPrices />,
     icon: '💰'
   }
 ];
