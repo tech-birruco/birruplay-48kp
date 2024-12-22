@@ -18,7 +18,7 @@ BestPrices.displayName = 'BestPrices';
 const faqs = [
   {
     question: 'Untuk usia berapa buku ini cocok digunakan?',
-    answer: 'Buku ini dirancang khusus untuk anak usia 1-3 tahun yang sedang dalam tahap perkembangan atau mengalami masalah perkembangan bahasa bicara.',
+    answer: 'Buku ini dirancang khusus untuk anak usia 1-3 tahun yang sedang dalam tahap perkembangan atau mengalami masalah perkembangan bahasa bicara seperti speech delay.',
     icon: '👶'
   },
   {
