@@ -2,7 +2,7 @@ const solutions = [
   {
     icon: '👩‍⚕️',
     title: 'Didesign oleh Ahli',
-    description: 'Dibuat oleh Speech & Language Therapist profesional untuk hasil yang optimal.',
+    description: 'Dibuat oleh Terapis Wicara profesional yang terbukti berhasil membantu jutaan anak Indonesia bicara.',
   },
   {
     icon: '🖼️',
@@ -12,7 +12,7 @@ const solutions = [
   {
     icon: '📽️',
     title: 'Panduan Lengkap',
-    description: 'Termasuk video tutorial dan panduan penggunaan untuk mengoptimalkan manfaat buku.',
+    description: 'Termasuk video tutorial dan panduan penggunaan buku untuk menstimulasi anak dirumah.',
   },
   {
     icon: '🛡️',
