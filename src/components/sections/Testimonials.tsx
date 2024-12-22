@@ -1,23 +1,22 @@
-import React from 'react';
 import { Quote, Star, Heart } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Ini buku yang bagus dan langka. Metodenya sangat bagus untuk membuat anak paham dengan menjelaskan gambar kata per kata dalam satu kalimat",
+    quote: "Ini buku yang bagus dan langka. Metodenya sangat bagus untuk membuat anak paham dengan menjelaskan gambar kata per kata dalam satu kalimat.",
     author: "Bunda Rahma",
     location: "Jakarta",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200"
   },
   {
-    quote: "Buku ini bagus banget! Anak saya yang tadinya susah nyusun kalimat, sekarang malah ketagihan belajar nyusun kalimat pakai buku ini",
+    quote: "Buku ini bagus banget! Anak saya yang tadinya susah nyusun kalimat, sekarang malah ketagihan belajar nyusun kalimat pakai buku ini.",
     author: "Bunda Sarah",
     location: "Bandung",
     rating: 5,
     image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=200"
   },
   {
-    quote: "Panduan videonya ngebantu banget! Saya jadi tahu cara ngajarin yang pas, anak pun jadi lebih pede buat ngomong",
+    quote: "Panduan videonya ngebantu banget! Saya jadi tahu cara ngajarin yang pas, anak pun jadi lebih pede buat ngomong.",
     author: "Bunda Fatima",
     location: "Surabaya",
     rating: 5,
@@ -30,10 +29,10 @@ export default function Testimonials() {
     <section className="py-16 bg-gradient-to-b from-secondary-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Apa Kata Ayah Bunda Yang Sudah Mencoba Buku Ini?</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Bergabunglah dengan ribuan ibu yang telah merasakan manfaat Birru Play
-          </p>
+          <div className="inline-flex items-center gap-2 bg-primary-100 text-primary-800 px-4 py-2 rounded-full mb-4">
+            <span className="text-sm font-medium">Testimoni</span>
+          </div>
+          <h2 className="text-3xl font-bold mb-12">Apa Kata Ayah Bunda Yang Sudah Mencoba Buku Ini?</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
@@ -47,6 +46,7 @@ export default function Testimonials() {
                   alt={testimonial.author}
                   className="w-16 h-16 rounded-full object-cover border-4 border-primary-100"
                 />
+                
                 <div className="ml-4">
                   <p className="font-semibold text-gray-900">{testimonial.author}</p>
                   <p className="text-gray-500 text-sm">{testimonial.location}</p>

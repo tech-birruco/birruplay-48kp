@@ -1,4 +1,3 @@
-import React from 'react';
 import Hero from './components/sections/Hero';
 import Problems from './components/sections/Problems';
 import Solutions from './components/sections/Solutions';

@@ -1,4 +1,3 @@
-import React from 'react';
 import CTAButton from '../CTAButton';
 import { Heart, Star, Gift, Sparkles } from 'lucide-react';
 
@@ -14,8 +13,8 @@ export default function CTASection() {
             <Sparkles className="w-8 h-8 text-secondary-500" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Jangan Biarkan{' '}
-            <span className="text-primary-600">Anak Kehilangan Kesempatan!</span>{' '}
+            Jangan Biarkan Anak <br />
+            <span className="text-primary-600">Kehilangan Kesempatan!</span>{' '}
           </h2>
           <p className="text-xl text-gray-700 mb-8">
           Bangun koneksi lebih dekat antara anak dan Ayah Bunda, bantu anak mengungkapkan keinginannya dengan percaya diri, dan ciptakan lingkungan yang supportif mulai hari ini

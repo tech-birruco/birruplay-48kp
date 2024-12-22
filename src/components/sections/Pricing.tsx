@@ -1,5 +1,4 @@
-import React from 'react';
-import { Check, Heart, Star, Gift } from 'lucide-react';
+import { Check, Heart, Star } from 'lucide-react';
 
 export default function Pricing() {
   return (
@@ -10,7 +9,7 @@ export default function Pricing() {
             Penawaran Terbaik!
           </div>
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold mb-4">Penawaran Spesial Hari Ini!</h2>
+            <h2 className="text-3xl font-bold mb-4">Spesial Hari Ini!</h2>
             <p className="text-gray-600">Investasi terbaik untuk masa depan buah hati tercinta</p>
           </div>
           <div className="space-y-6 mb-8">
@@ -40,7 +39,7 @@ export default function Pricing() {
           </div>
           <div className="text-center">
             <p className="text-gray-500 line-through mb-2">Total Nilai Rp 429.000</p>
-            <p className="text-3xl font-bold text-primary-600 mb-6">Harga Spesial: Rp 180.000</p>
+            <p className="text-3xl font-bold text-primary-600 mb-6">Investasi: Rp 180.000</p>
             <button 
               className="bg-primary-500 text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
               onClick={() => {

@@ -4,7 +4,7 @@ import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 const faqs = [
   {
     question: 'Untuk usia berapa buku ini cocok digunakan?',
-    answer: 'Buku ini dirancang khusus untuk anak usia 1-3 tahun yang sedang dalam tahap perkembangan bahasa pertama.',
+    answer: 'Buku ini dirancang khusus untuk anak usia 1-3 tahun yang sedang dalam tahap perkembangan atau mengalami masalah perkembangan bahasa bicara.',
     icon: '👶'
   },
   {
@@ -37,9 +37,8 @@ export default function FAQSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <HelpCircle className="w-12 h-12 text-primary-500 mx-auto mb-4" />
-          <h2 className="text-3xl font-bold mb-4">Pertanyaan yang Sering Diajukan</h2>
+          <h2 className="text-3xl font-bold mb-4">Pertanyaan Yang Sering Diajukan</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Temukan jawaban untuk pertanyaan umum seputar Birru Play
           </p>
         </div>
         <div className="max-w-3xl mx-auto space-y-4">
