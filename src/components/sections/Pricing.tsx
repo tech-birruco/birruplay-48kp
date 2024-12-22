@@ -50,7 +50,7 @@ export default function Pricing() {
                     content_name: 'Birru Play - 48 Keinginan Pertamaku',
                     content_category: 'Buku Menyusun Kalimat',
                     currency: 'IDR',
-                    value: 299000
+                    value: 429000
                   });
                 }
                 window.open('https://api.whatsapp.com/send?phone=6282281920653&text=Halo%20Kak%20Saya%20Tertarik%20dengan%20Buku%20Birru%20Play%20%2248%20Keinginan%20Pertamaku%22.%0A', '_blank');
