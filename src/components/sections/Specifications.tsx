@@ -1,5 +1,4 @@
 import { Table, TableBody, TableCell, TableRow } from '../ui/table';
-import { Card } from '../ui/card';
 
 export function Specifications() {
   const specs = [
