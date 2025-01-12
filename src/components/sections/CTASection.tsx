@@ -17,7 +17,7 @@ export default function CTASection() {
             <span className="text-primary-600">Kehilangan Kesempatan!</span>{' '}
           </h2>
           <p className="text-xl text-gray-700 mb-8">
-          Bangun koneksi lebih dekat antara anak dan Ayah Bunda, bantu anak mengungkapkan keinginannya dengan percaya diri, dan ciptakan lingkungan yang supportif mulai hari ini
+            Bangun koneksi lebih dekat antara anak dan Ayah Bunda, bantu anak mengungkapkan keinginannya dengan percaya diri, dan ciptakan lingkungan yang supportif mulai hari ini
           </p>
           <CTAButton className="bg-primary-500 text-white px-12 py-5 rounded-full text-lg font-semibold hover:bg-primary-600 mb-8">
             Mulai Perjalanan Bicara Anak Sekarang!
@@ -29,7 +29,7 @@ export default function CTASection() {
             </div>
             <div className="flex items-center">
               <Star className="w-5 h-5 text-primary-500 mr-2" />
-              <span>Garansi 30 Hari</span>
+              <span>Garansi 14 Hari</span>
             </div>
           </div>
         </div>

@@ -61,7 +61,7 @@ export default function Pricing() {
             <div className="mt-6 flex items-center justify-center gap-4 text-sm text-gray-600">
               <div className="flex items-center">
                 <Star className="w-4 h-4 text-primary-500 mr-1" />
-                <span>Garansi 30 Hari</span>
+                <span>Garansi 14 Hari</span>
               </div>
               <div className="flex items-center">
                 <Heart className="w-4 h-4 text-accent-500 mr-1" />

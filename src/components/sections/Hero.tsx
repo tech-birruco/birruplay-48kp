@@ -20,11 +20,11 @@ export default function Hero() {
           <div className="my-8"></div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          Percepat Kemampuan Anak{' '} <br />
-            <span className="text-primary-600">Menyampaikan Keinginan</span>
+            Cegah {' '}
+            <span className="text-primary-600">Speech Delay & Tantrum</span>
           </h1>
           <p className="text-xl text-gray-700 mb-8">
-          Berbasis kurikulum international, bantu anak menyusun kalimat sederhana, menyampaikan keinginannya, <br /> dan membangun koneksi lebih dekat dengan Ayah Bunda
+            Berbasis kurikulum international, bantu percepat kemampuan anak menyusun kalimat sederhana, <br />menyampaikan keinginannya, dan membangun koneksi lebih dekat dengan Ayah Bunda
           </p>
           <CTAButton className="bg-primary-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-primary-600">
           Mulai Perjalanan Bicara Anak Sekarang!

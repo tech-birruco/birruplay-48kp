@@ -14,7 +14,7 @@ export default function Gallery() {
             <span className="text-sm font-medium">Galeri Produk</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Lihat Bagimana Buku Ini Menarik
+            Bagimana Buku Birru Play Menarik
           </h2>
         </div>
         

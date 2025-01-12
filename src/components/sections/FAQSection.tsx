@@ -1,46 +1,27 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 
-const BestPrices = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div ref={ref}>
-    Ya, kami juga menyediakan harga spesial untuk pembelian dalam jumlah banyak.
-    <ul className="list-disc px-4">
-      <li>Lebih dari 10: <span className="line-through text-red-500">Rp 180.000</span> Rp 167.400 <span className="text-green-500">(Hemat Rp 12.600/pcs)</span></li>
-      <li>Lebih dari 50: <span className="line-through text-red-500">Rp 180.000</span> Rp 160.200 <span className="text-green-500">(Hemat Rp 19.800/pcs)</span></li>
-    </ul>
-  </div>
-));
-BestPrices.displayName = 'BestPrices';
-
 const faqs = [
   {
-    question: 'Untuk usia berapa buku ini cocok digunakan?',
-    answer: 'Buku ini dirancang khusus untuk anak usia 1-3 tahun yang sedang dalam tahap perkembangan atau mengalami masalah perkembangan bahasa bicara seperti speech delay.',
+    question: 'Untuk usia berapa buku Birru Play cocok digunakan?',
+    answer: 'Buku kami dirancang khusus untuk anak usia 1+ tahun yang sedang dalam tahap perkembangan atau mengalami masalah perkembangan bahasa bicara seperti speech delay dan masalah komunikasi lainnnya.',
     icon: '👶'
   },
   {
-    question: 'Berapa lama waktu yang dibutuhkan untuk melihat hasil?',
-    answer: 'Dengan penggunaan rutin sesuai panduan, mayoritas orang tua melaporkan peningkatan signifikan dalam 2-4 minggu pertama.',
-    icon: '⏰'
+    question: 'Berapa lama waktu yang dibutuhkan untuk melihat progres?',
+    answer: 'Dengan penggunaan rutin sesuai panduan, mayoritas Ayah Bunda melaporkan peningkatan signifikan dalam 2-4 minggu pertama.',
+    icon: '📈'
   },
   {
-    question: 'Apakah ada garansi untuk produk ini?',
-    answer: 'Ya, kami memberikan garansi 30 hari uang kembali jika Anda tidak puas dengan produk kami.',
+    question: 'Bagaimana cara mendapatkan panduannya?',
+    answer: 'Panduan lengkap penggunaan buku dan video tutorial akan dikirim setelah pesanan selesai.',
+    icon: '📽️'
+  },
+  {
+    question: 'Apakah ada garansi untuk produk Birru Play?',
+    answer: 'Ya, kami memberikan garansi 100% uang kembali dalam 14 hari jika Ayah Bunda tidak puas dengan produk kami.',
     icon: '✨'
   },
-  {
-    question: 'Bagaimana cara menggunakan buku ini dengan efektif?',
-    answer: 'Setiap buku dilengkapi dengan panduan lengkap dan video tutorial yang akan memandu Anda langkah demi langkah.',
-    icon: '📚'
-  },
-  {
-    question: 'Apakah ada harga spesial untuk pembelian dalam jumlah banyak?',
-    answer: <BestPrices />,
-    icon: '💰'
-  }
 ];
 
 export default function FAQSection() {

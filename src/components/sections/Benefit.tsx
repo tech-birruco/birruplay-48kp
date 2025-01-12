@@ -30,7 +30,7 @@ export default function Benefit() {
             <span className="text-sm font-medium">Manfaat</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Dengan Buku Ini, Ayah Bunda Dapat Membantu Anak
+            Dengan Buku Birru Play, Ayah Bunda Dapat Membantu Anak
           </h2>
         </div>
 

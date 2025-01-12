@@ -7,7 +7,7 @@ export default function VideoSection() {
             <span className="text-sm font-medium">Video Intro</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Lihat Bagaimana Buku Ini Bekerja
+            Bagaimana Buku Birru Play Bekerja
           </h2>
         </div>
 

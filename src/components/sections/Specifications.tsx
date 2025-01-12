@@ -19,7 +19,7 @@ export function Specifications() {
             <span className="text-sm font-medium">Spesifikasi</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Lihat Bagaimana Buku Ini Aman & Awet
+            Bagaimana Buku Birru Play Aman & Awet
           </h2>
         </div>
 
