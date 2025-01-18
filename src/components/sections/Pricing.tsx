@@ -53,7 +53,7 @@ export default function Pricing() {
                     value: 429000
                   });
                 }
-                window.open('https://api.whatsapp.com/send?phone=6282281920653&text=Halo%20Kak%20Saya%20Tertarik%20dengan%20Buku%20Birru%20Play%20%2248%20Keinginan%20Pertamaku%22.%0A', '_blank');
+                window.open('https://api.whatsapp.com/send?phone=6282281920653&text=Halo%20Kak%2C%20Saya%20Mau%20Buku%20Birru%20Play%20%2248%20Keinginan%20Pertamaku%22', '_blank');
               }}
             >
               Ya, Saya Mau Pesan Sekarang!
