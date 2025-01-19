@@ -1,8 +1,11 @@
 const images = [
-  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-1.png',
-  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-2.png',
-  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-3.png',
-  'https://tourmate.id/birruplay/wp-content/uploads/2024/12/48KP-4.png',
+  'https://github.com/tech-birruco/birruplay-48kp/blob/main/src/public/assets/%20Slide%201.png?raw=true',
+  'https://github.com/tech-birruco/birruplay-48kp/blob/main/src/public/assets/%20Slide%202.png?raw=true',
+  'https://github.com/tech-birruco/birruplay-48kp/blob/main/src/public/assets/%20Slide%203.png?raw=true',
+  'https://github.com/tech-birruco/birruplay-48kp/blob/main/src/public/assets/%20Slide%204.png?raw=true',
+  'https://github.com/tech-birruco/birruplay-48kp/blob/main/src/public/assets/%20Slide%205.png?raw=true',
+  'https://github.com/tech-birruco/birruplay-48kp/blob/main/src/public/assets/%20Slide%206.png?raw=true',
+  'https://github.com/tech-birruco/birruplay-48kp/blob/main/src/public/assets/%20Slide%207.png?raw=true',
 ];
 
 export default function Gallery() {
@@ -17,7 +20,7 @@ export default function Gallery() {
             Bagimana Buku Birru Play Menarik
           </h2>
         </div>
-        
+
         <div className="grid md:grid-cols-2 gap-8">
           {images.map((src, index) => (
             <div className="aspect-square relative overflow-hidden rounded-xl cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300">
